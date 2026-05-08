@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manage Menu Items - Zomato Admin</title>
+    <title>Manage Menu Items - Foodonix Admin</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="${pageContext.request.contextPath}/static/css/zomato-style.css" rel="stylesheet">
@@ -37,7 +37,7 @@
         <!-- Sidebar -->
         <div class="col-md-3">
             <div class="bg-white p-4 rounded-4 shadow-sm border">
-                <h5 class="fw-bold mb-4 px-2">Zomato Admin</h5>
+                <h5 class="fw-bold mb-4 px-2">Foodonix Admin</h5>
                 <nav class="d-flex flex-column">
                     <a href="${pageContext.request.contextPath}/admin/dashboard" class="sidebar-link"><i class="fas fa-chart-line"></i> Dashboard</a>
                     <a href="${pageContext.request.contextPath}/admin/restaurants" class="sidebar-link"><i class="fas fa-utensils"></i> Restaurants</a>
